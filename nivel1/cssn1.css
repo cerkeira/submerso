@@ -1,0 +1,135 @@
+
+
+body{
+    background-color: black;
+    font-family: 'VT323', monospace;
+    width:1280px;
+    height:720px;
+}
+
+
+
+#fundo1{
+     background-image:url(imagens/fundo1080vazio.png);
+    background-repeat: repeat-y;
+    display: block;
+    position:absolute;
+    background-size:100%;
+    width:1280px;
+    height:720px;
+ }
+
+#clicar{
+    background-color:#415651;
+    color: #B4D8B1;
+    margin:30px;
+    font-size: 28px;
+    padding:20px;
+    cursor: pointer;
+}
+ #instrucoes{
+     margin-left:30%;
+     margin-top:10%;
+     display: block;
+     z-index: 0;
+     position: absolute;
+     padding:20px;
+     text-align: center;
+     background-color: #B4D8B1;
+     color: #415651;
+
+ }
+
+/*
+#canoa1, #canoa2, #canoa3{
+   z-index: 0;
+}
+
+*/
+
+#canoa{
+    width:160px;
+    height:320px;
+    position: absolute;
+
+}
+#flamingo{
+
+    position: absolute;
+
+}
+#flamengo{
+
+    position: absolute;
+}
+
+#pedaco{
+   /* z-index: 1;*/
+
+    position: absolute;
+   /* width: 135px;
+    height:451px;*/
+}
+
+#perdeste{
+    margin-left:30%;
+    margin-top:10%;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    padding:20px;
+    text-align: center;
+    background-color: #B4D8B1;
+    color: #415651;
+}
+
+#caixavidas{
+    align-content: flex-end;
+}
+
+.vida{
+    width: 4%;
+    height: 4%;
+}
+#continue a{
+    color: #415651;
+}
+#continue{
+    font-family: 'VT323', monospace;
+
+    background-color: #B4D8B1;
+    margin: 30px;
+    font-size: 28px;
+    padding: 20px;
+    display: block;
+    position: absolute;
+    z-index: 20;
+}
+
+a.visited, a{
+    text-decoration: none;
+    color: #415651;
+}
+
+#opcoes{
+    margin-left:30%;
+    margin-top:10%;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    padding:20px;
+    text-align: center;
+    background-color: #B4D8B1;
+    color: #415651;
+}
+
+#plataforma{
+    width: 20%;
+    display: block;
+    position: absolute;
+    z-index: 12;
+}
+
+#cruz{
+    text-align: end;
+}

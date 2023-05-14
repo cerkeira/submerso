@@ -1,0 +1,195 @@
+html{
+  width:1280px;
+  height:720px;
+  }
+body{
+  font-family: 'VT323', monospace;
+    background-image: url("assets/sempolitico.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:1280px;
+  height:720px;
+    background-color: black;
+    overflow: hidden;
+}
+#politico{
+  height: 520px;
+  left: 455px;
+  position: absolute;
+  top: 81px;
+}
+#opcoes{
+  color: white;
+}
+
+#opcao1{
+  width: 320px;
+  top: 85px;
+  left: 812px;
+  position: absolute;
+  font-size: 12px;
+  padding: 5px;
+    padding-left: 5px;
+  padding-left: 14px;
+}
+#opcao1:hover{
+  color: yellow;
+}
+#opcao2{
+  width: 320px;
+top: 192px;
+left: 812px;
+position: absolute;
+font-size: 12px;
+padding: 5px;
+  padding-left: 5px;
+padding-left: 14px;
+  }
+  #opcao2:hover{
+    color: yellow;
+  }
+  #opcao3{
+    width: 320px;
+top: 302px;
+left: 812px;
+position: absolute;
+font-size: 12px;
+padding: 5px;
+  padding-left: 5px;
+padding-left: 14px;
+    }
+    #opcao3:hover{
+      color: yellow;
+    }
+    #opcao4{
+      width: 320px;
+top: 410px;
+left: 812px;
+position: absolute;
+font-size: 12px;
+padding: 5px;
+  padding-left: 5px;
+padding-left: 14px;
+      }
+      #opcao4:hover{
+        color: yellow;
+      }
+      #chorar{
+        top: 544px;
+left: 855px;
+position: absolute;
+font-size: 30px;
+color: white;
+      }
+      #chorar:hover{
+        color: yellow;
+      }
+      #atacar{
+        top: 544px;
+left: 1125px;
+position: absolute;
+font-size: 30px;
+color: white;
+      }
+      #atacar:hover{
+        color: yellow;
+      }
+      #polvida{
+        top: 540px;
+left: 75px;
+position: absolute;
+font-size: 45px;
+color: white;
+      }
+      #polimg{
+        height: 60px;
+top: -5px;
+position: absolute;
+left: -53px;
+      }
+      #uservida{
+        top: 540px;
+        left: 290px;
+        position: absolute;
+        font-size: 45px;
+        color: white;
+      }
+      #userimg{
+        height: 60px;
+        top: -5px;
+        position: absolute;
+        left: -45px;
+      }
+      #derrotado{
+        display: none;
+        z-index: 100000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 720px;
+        width: 1280px;
+      }
+      #derrotado div{
+        height: 720px;
+        width: 1280px;
+        background-color: red;
+        opacity: 90%;
+      }
+      #derrotado h1{
+        position: absolute;
+        top: 200px;
+        left: 501px;
+        color: white;
+      }
+      #derrotado h2{
+        position: absolute;
+        top: 240px;
+        left: 414px;
+        color: white;
+      }
+      #feito{
+        top: 620px;
+position: absolute;
+width: 760px;
+left: 35px;
+      }
+      #vencedor span{
+        position: absolute;
+  top: 310px;
+left: 572px;
+  font-size: 30px;
+outline: solid;
+  outline-width: medium;
+outline-width: 2px;
+outline-offset: 3px;
+color: white;
+      }
+      #vencedor{
+        display: none;
+        z-index: 100000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 720px;
+        width: 1280px;
+      }
+      #vencedor div{
+        height: 720px;
+        width: 1280px;
+        background-color: green;
+        opacity: 90%;
+      }
+      #parabens{
+        margin: auto;
+        position: absolute;
+        top: 235px;
+left: 550px;
+        color: white;
+      }
+      #venceste{
+        margin: auto;
+  position: absolute;
+  top: 265px;
+left: 475px;
+  color: white;
+      }

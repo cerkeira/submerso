@@ -1,0 +1,286 @@
+html{
+  width:1280px;
+  height:720px;
+}
+body{
+  font-family: 'VT323', monospace;
+  background-image: url("assets/nv2_fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: black; 
+  width:1280px;
+  height:720px;
+  background-size: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#jogador1{
+  height: 80px;
+  width: 50px;
+  z-index: 2;
+  display: block;
+  position: absolute;
+}
+#jogador2{
+  height: 80px;
+  width: 50px;
+  top: 388px !important;
+  z-index: 2;
+  display: block;
+  position: absolute;
+}
+#jogador3{
+  height: 80px;
+  width: 50px;
+  top: 594px !important;
+  z-index: 2;
+  display: block;
+  position: absolute;
+}
+
+#primeiro{
+  height: 243px;
+}
+
+#segundo{
+  height: 155px;
+}
+#jogador1{
+  width: 40px;
+  height: 80px;
+}
+#jogador2{
+  width: 40px;
+  height: 80px;
+}
+#jogador3{
+  width: 40px;
+  height: 80px;
+}
+#gato{
+  height: 25px;
+  width: 55px;
+  position: absolute;
+}
+#irmao{
+  height: 80px;
+  width: 30px;
+  position: absolute;
+}
+#pai{
+  height: 85px;
+  width: 40px;
+  position: absolute;
+}
+#mae{
+  height: 97px;
+  width: 72px;
+  position: absolute;
+}
+
+#contador{
+  color: white;
+}
+#tempo{
+  color: white;
+  position: absolute;
+  top: 10px;
+font-size: 40px;
+left: 45px;
+}
+
+#gatoconf{
+  position: absolute;
+top: 22px;
+left: 1110px;
+height: 25px;
+}
+#irmaoconf{
+  position: absolute;
+  top: 10px;
+left: 1020px;
+height: 45px;
+}
+#maeconf{
+  position: absolute;
+  top: 7px;
+  left: 915px;
+  height: 50px;
+}
+#paiconf{
+  position: absolute;
+  top: 10px;
+left: 835px;
+height: 42px;
+}
+#vencedor{
+  z-index: 100000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 720px;
+  width: 1280px;
+}
+#vencedor div{
+  height: 720px;
+  width: 1280px;
+  background-color: green;
+  opacity: 90%;
+}
+#salvaste{
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  left: 501px;
+  color: white;
+}
+#estanahora{
+  margin: auto;
+  position: absolute;
+  top: 227px;
+left: 346px;
+  color: white;
+}
+#escolhe{
+  margin: auto;
+  position: absolute;
+  top: 252px;
+  left: 400px;
+  color: white;
+}
+#choro{
+  margin: auto;
+  position: absolute;
+  top: 278px;
+left: 419px;
+  color: white;
+}
+#vencedor span{
+  position: absolute;
+  top: 310px;
+left: 539px;
+  font-size: 30px;
+outline: solid;
+  outline-width: medium;
+outline-width: 2px;
+outline-offset: 3px;
+color: white;
+}
+#derrotado{
+  z-index: 100000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 720px;
+  width: 1280px;
+}
+#derrotado div{
+  height: 720px;
+  width: 1280px;
+  background-color: red;
+  opacity: 90%;
+}
+#derrotado h1{
+  position: absolute;
+  top: 200px;
+  left: 501px;
+  color: white;
+}
+#derrotado h2{
+  position: absolute;
+  top: 240px;
+  left: 414px;
+  color: white;
+}
+#conf1{
+  height: 30px;
+position: absolute;
+left: 965px;
+top: 20px;
+}
+#conf2{
+  height: 30px;
+position: absolute;
+left: 872px;
+top: 20px;
+}
+#conf3{
+  height: 30px;
+  position: absolute;
+  left: 1055px;
+  top: 20px;
+}
+#conf4{
+  height: 30px;
+position: absolute;
+left: 1180px;
+top: 20px;
+}
+#dialogo{
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 542px;
+  width: 964px;
+}
+#before{
+  height: 130px;
+width: 1279px;
+background-color: yellow;
+opacity: 90%;
+top: 590px;
+left: 0px;
+position: absolute;
+}
+#before h1{
+  margin-top: 25px;
+margin-left: 250px;
+color: black;
+}
+#beforebtn{
+  position: absolute;
+color: black;
+font-weight: bolder;
+top: 70px;
+left: 1100px;
+font-size: 30px;
+outline: solid;
+  outline-width: medium;
+outline-width: medium;
+outline-width: 2px;
+outline-offset: 3px;
+}
+#after{
+  height: 130px;
+width: 1279px;
+background-color: yellow;
+opacity: 90%;
+top: 590px;
+left: 0px;
+position: absolute;
+}
+#after h1{
+  margin-top: 25px;
+  margin-left: 250px;
+  color: black;
+}
+#afterbtn{
+  position: absolute;
+color: black;
+font-weight: bolder;
+top: 70px;
+left: 1100px;
+font-size: 30px;
+outline: solid;
+  outline-width: medium;
+outline-width: medium;
+outline-width: 2px;
+outline-offset: 3px;
+}
+#grande{
+  z-index: 9999999 !important;
+position: absolute;
+height: 410px;
+}

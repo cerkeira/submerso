@@ -1,0 +1,92 @@
+*{
+    font-family: 'VT323', monospace;
+}
+
+#fundo1 {
+    background-image:url(imagens/FundoNivel0);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    height:720px;
+    width:1280px;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+}
+body{
+    background-color: black;
+
+    height:720px;
+    width:1280px;
+
+}
+
+#jogador{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+#ondas{
+    z-index: 30;
+    width: 894px;
+    height:242px;
+    position: absolute;
+
+}
+#instrucao1{
+    width: 39%;
+    height: 33%;
+    display: block;
+    position: absolute;
+    z-index: 0;
+}
+#instrucao2{
+    width: 28%;
+    height: 22%;
+    display: block;
+    position: absolute;
+    z-index: 20;
+}
+
+#moliceiro{
+    width: 280px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    z-index: 6;
+}
+
+#moliceiroProtag{
+    width: 300px;
+    height: 212px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+
+#cais{
+    width: 32%;
+    height:20%;
+    display: block;
+    position: absolute;
+    z-index: 8;
+}
+
+#continue{
+    font-family: 'VT323', monospace;
+
+    background-color:#415651;
+    margin:30px;
+    font-size: 28px;
+    padding:20px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+a.visited, a{
+    text-decoration: none;
+    color: #B4D8B1;
+}

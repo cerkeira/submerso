@@ -1,0 +1,34 @@
+#video{
+    position:absolute;
+    display:block;
+}
+body{
+    background-color: black;
+    width: 1280px;
+    height: 720px;
+}
+#continue{
+    font-family: 'VT323', monospace;
+    background-color:#415651;
+    margin:30px;
+    font-size: 28px;
+    padding:20px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+a.visited, a{
+    text-decoration: none;
+    color: #B4D8B1;
+}
+#play{
+    font-family: 'VT323', monospace;
+    background-color:#415651;
+    margin:30px;
+    font-size: 28px;
+    padding:20px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
