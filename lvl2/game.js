@@ -60,11 +60,7 @@ contador=setInterval (counter, 1000);
 function processatecla(evt){
     // RESTART E ALERTS
     if (evt=="r"){
-    clearInterval (contador);
-    clearTimeout (temporizador);
-    n=30;
-    iniciar();
-        
+        location.reload();
     }
     if (evt=="p"){
         clearTimeout(temporizador);
@@ -231,7 +227,7 @@ document.getElementById("beforebtn").onclick=function(){
 // FIM
 function derrota (){
     console.log("perdeu");
-    // document.getElementById("derrotado").style.display="block";
+    document.getElementById("derrotado").style.display="block";
     clearInterval (contador);
     clearTimeout (temporizador);
     fim=1;
